@@ -18,7 +18,8 @@ from cities
 group by region 
 having count(*) >= 5
 )
-order by population desc limit 5 offset 10;
+order by population desc 
+limit 5 offset 10;
 
 4.
 select region, sum(population) as pop_region 
