@@ -2,7 +2,7 @@
 SELECT *
 FROM cities
 ORDER BY population desc
-LIMIT 10 OFFSET 11;
+LIMIT 10 OFFSET 10;
 2.
 select *
 from cities
